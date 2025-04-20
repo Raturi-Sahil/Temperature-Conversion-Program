@@ -18,6 +18,7 @@ body {
     width: 400px;
     border-radius: 10px;
     background-color: lightyellow;
+    transition: 0.3s ease;
     box-shadow: 0px 0px 10px rgba(135, 134, 134, 0.5);
 }
 

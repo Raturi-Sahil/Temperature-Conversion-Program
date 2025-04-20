@@ -21,14 +21,19 @@ button.addEventListener('click', function() {
             if (temp < 0) {
                 container.style.backgroundColor = "#00bfff"; // deep blue
             } else if (temp <= 10) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#87cefa"; // light blue
             } else if (temp <= 17) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#66cdaa"; // aquamarine
             } else if (temp <= 24) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#ffd580"; // warm yellow
             } else if (temp <= 32) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#ff7f50"; // coral
             } else if (temp <= 40) {
+                result.style.color= "black";
                 container.style.backgroundColor = "#ff4500"; // orange red
             } else {
                 result.style.color= "black";
@@ -42,16 +47,22 @@ button.addEventListener('click', function() {
 
             temp = value;
             if (temp < 32) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#00bfff";
             } else if (temp <= 50) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#87cefa";
             } else if (temp <= 62) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#66cdaa";
             } else if (temp <= 75) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#ffd580";
             } else if (temp <= 89) {
+                result.style.color= "red";
                 container.style.backgroundColor = "#ff7f50";
             } else if (temp <= 104) {
+                result.style.color= "black";
                 container.style.backgroundColor = "#ff4500";
             } else {
                 result.style.color = "black";
