@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion Program</title>
+    <script src="https://kit.fontawesome.com/c1d217300b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="container-title">Temperature conversion</h1>
+        <input type="number" class="user-input" min="10" max="100">
+        <form>
+            <label for="input1">
+                <input id="input1" type="radio" name="convert" value="cth" ><b>Celsius</b>
+                <i class="fa-solid fa-arrow-right"></i> 
+                Fahrenheit
+            </label>
+        <form>
+            <label for="input2">
+                <input id="input2" type="radio" name="convert" value="cth" checked><b>Fahrenheit</b>
+                <i class="fa-solid fa-arrow-right"></i> 
+                Celsius
+            </label>
+        </form>
+        <button class="btn">Submit</button>
+        <h2 class="result"></h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
